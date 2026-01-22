@@ -13,7 +13,9 @@
       ],
       "matches": [
         "*://*.leetcode.com/problems/*",
-        "*://*.leetcode.com/contest/*/problems/*"
+        "*://*.leetcode.com/contest/*/problems/*",
+        "*://*.leetcode.cn/problems/*",
+        "*://*.leetcode.cn/contest/*/problems/*"
       ]
     }
   ]
