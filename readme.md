@@ -20,9 +20,14 @@ You can modify the source code and load the extension in Chrome locally:
 - `Load unpacked` and select the `source` folder
 
 ## Regression check
-Open `tests/copy_pipeline.runner.html` in a browser (via a local static
-server if needed so `fetch` of the fixture works) to assert Copy / Copy
-Markdown cleaning on problem 3127 HTML.
+From the repo root, serve static files so `fetch` of the fixture works:
+
+```
+npx serve .
+```
+
+Then open `http://localhost:3000/tests/copy_pipeline.runner.html` in a
+browser to assert Copy / Copy Markdown cleaning on problem 3127 HTML.
 
 ## Build
 `source zip.sh` to build the zip file for upload.
